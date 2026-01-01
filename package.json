@@ -1,0 +1,23 @@
+{
+  "name": "projectmanagement",
+  "version": "1.0.0",
+  "description": "a project management application for beginners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --watch src/index.js"
+  },
+  "keywords": [
+    "backend",
+    "API",
+    "creation"
+  ],
+  "author": "Joy Swarnakar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.0.1"
+  }
+}
